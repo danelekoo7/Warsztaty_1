@@ -49,7 +49,7 @@ public class Main2 {
             }
         }
         Arrays.sort(numbers);
-        System.out.println("Liczby podane przez uzytkownika to" + Arrays.toString(numbers));
+        System.out.println("Liczby podane przez uzytkownika to: " + Arrays.toString(numbers));
         return numbers;
     }
 
