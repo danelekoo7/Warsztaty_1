@@ -18,7 +18,7 @@ public class Main2 {
                 }
             }
         }
-        if (result >= 3) {
+        if (result >= 0) {
             System.out.println("Brawo! Trafiłeś: " + result);
         }
     }

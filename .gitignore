@@ -25,3 +25,5 @@ hs_err_pid*
 *.iml
 *.xml
 .idea
+filtered_popular_words.txt
+popular_words.txt

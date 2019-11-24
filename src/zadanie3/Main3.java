@@ -19,10 +19,10 @@ public class Main3 {
             if (word.equals("zgadłeś")) {
                 System.out.println("Wygrałem");
                 loop = false;
-            } else if (word.equals("za dużo")) {
+            } else if (word.equals("za dużo") && counter<10) {
                 max = guess;
                 counter += 1;
-            } else if (word.equals("za mało")) {
+            } else if (word.equals("za mało") && counter<10) {
                 min = guess;
                 counter += 1;
             } else {
